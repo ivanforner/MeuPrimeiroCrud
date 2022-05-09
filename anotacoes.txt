@@ -1,0 +1,13 @@
+1 - Criar o diretório do projeto e uma pasta "backend"
+D:\Cursos\code zero\DayNotes\backend
+
+Dentro da pasta backend, dar o comando "npm init -y"
+Esse comando vai criar um arquivo de configuração do nodeJS chamado "package.json"
+
+2 - Criar uma pasta chamada "src" que vai armazenar todos os arquicos do projeto.
+
+3 - Instalar o "express" que vai fazer nossa api funcionar.
+
+4 - Vamos instalar o nodemon "npm install nodemon -D" para que toda vez que fizermos uma alteração no código, a gente não precisar executar o arquivo index.js novamente
+Vamos então acrescentar uma linha no arquivo package.json, dentro de "scripts" => "dev" : "nodemon src/index.js"
+No terminal escrevemos "npm run dev" para deixar o servidor rodando.
